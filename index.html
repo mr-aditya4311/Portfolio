@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Verma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Portfolio.</h1>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h1>Hello, It's Me</h1>
+    <h2>Aditya Verma</h2>
+    <p>And I'm a <span style="color:#00ffff;">Frontend Developer</span></p>
+    <p>
+      Welcome to my digital space! I'm passionate about crafting beautiful, responsive websites and intuitive user interfaces. This portfolio showcases my journey, skills, and the projects I've built along the way.
+    </p>
+    
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="my.png" alt="Aditya Verma" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          I'm a frontend developer with a strong foundation in HTML, CSS, and JavaScript, and growing expertise in frameworks like React. I love turning ideas into reality through clean, efficient code and thoughtful design.
+        </p>
+        <p>
+          My journey began with curiosity and a desire to build things that live on the web. Over time, I've developed a keen eye for detail and a commitment to continuous learning. Whether collaborating with teams or working solo, I thrive on solving problems and delivering polished digital experiences.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+      
+    </ul>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+  <h2>Certificates</h2>
+ <div class="certificate-gallery">
+  <figure>
+    <img src="html.png" alt="HTML Certificate" class="thumbnail" onclick="openModal(this.src)" />
+    <figcaption>HTML – Infosys Springboard</figcaption>
+  </figure>
+
+  <figure>
+    <img src="CSS.png" alt="CSS Certificate" class="thumbnail" onclick="openModal(this.src)" />
+    <figcaption>CSS – Infosys Springboard</figcaption>
+  </figure>
+
+  <figure>
+    <img src="Python.png" alt="Python Certificate" class="thumbnail" onclick="openModal(this.src)" />
+    <figcaption>Python Basics – Infosys Springboard</figcaption>
+  </figure>
+</div>
+
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-img" />
+  </div>
+</section>
+
+
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This is my personal portfolio website which contains all the information about me, the skills, and my work. Built with HTML, CSS, and JavaScript, it reflects my design sensibility and coding style.</p>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>A sleek weather application that fetches real-time data using the OpenWeather API. Users can search for any city and get current weather conditions, temperature, and forecasts.</p>
+    </div>
+    <div class="project-card">
+      <h3>Task Manager</h3>
+      <p>A full-stack task management app built with React and Node.js. It allows users to create, update, and delete tasks, with persistent storage using MongoDB.</p>
+    </div>
+    <div class="project-card">
+      <h3>Landing Page Design</h3>
+      <p>A responsive landing page template designed for startups and product launches. Features smooth scroll, animated sections, and a clean layout.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      "Aditya is a highly skilled developer with a great eye for design. His ability to translate ideas into functional interfaces is impressive." – Mentor
+    </blockquote>
+    <blockquote>
+      "Working with Aditya was a pleasure. He’s professional, creative, and always delivers on time." – Client
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social">
+      <a href="https://linkedin.com/in/adityaverma">LinkedIn</a>
+      <a href="https://github.com/adityaverma">GitHub</a>
+      <a href="mailto:aditya@example.com">Email</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Aditya Verma. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
