@@ -388,3 +388,28 @@ footer {
   font-weight: bold;
   cursor: pointer;
 }
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.contact-item {
+  color: #00ffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 6px #00ffff;
+}
+
+.contact-item i {
+  margin-right: 8px;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+
+.contact-item:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 12px #00ffff;
+}
