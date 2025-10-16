@@ -221,41 +221,43 @@ section h2 {
 
 /* Contact Section */
 #contact {
-  padding: 60px 20px;
-  background-color: #121212;
   text-align: center;
+  padding: 60px 20px;
+  background-color: #0a0a0a;
+  color: #fff;
 }
 
-#contact form {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
 }
 
-#contact input,
-#contact textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #2a2a2a;
-  color: #ffffff;
+#contact p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  color: #ccc;
 }
 
-#contact button {
-  background-color: #00ffff;
-  color: #0d0d0d;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
+.contact-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  color: #fff;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
   box-shadow: 0 0 10px #00ffff;
-  cursor: pointer;
 }
 
-#contact button:hover {
-  background-color: #00bcd4;
+.contact-button:hover {
+  background-color: #00ffff;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px #00ffff;
 }
 
 /* Footer */
